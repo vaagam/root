@@ -1,0 +1,377 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size 18px;
+    background: url(img/bg-tile.gif) top left repeat;
+}
+p{
+    color: #444;
+}
+
+#team{
+    text-align: center;
+    border: 5px double yellowgreen;
+    border-radius: 20px;
+    margin: 20px; 20px;
+    padding: 0;
+}
+.meetUs{
+    padding-top: 20px
+}
+
+#container{
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.logo {
+    margin-left: 20px;
+    padding: 0 5px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.logo:hover {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.bg-dark{
+    background:url(img/bg-tile-green.gif) top left repeat;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+}
+.address{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%
+}
+
+.navright li{
+    font-size: 15px;
+}
+
+.navbar-collapse {
+    margin-left: 10%; 
+   
+}
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar ul li a{
+    text-transform: uppercase;
+    color: yellowgreen;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black
+}
+
+.navbar ul li a:hover{   
+    background: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;  
+}
+
+/*MAIN CONTENT- FLOATS*/
+.title{
+    margin:20px 0;
+}
+
+h1, h3, h4, h5{
+    text-align: center;
+    color: #333;
+    
+}
+
+.h3Services{
+    text-align: center;
+}
+
+hr{
+    border: 1px solid yellowgreen;
+}
+
+.hours p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 0.5
+}
+
+h1 em{
+    font-weight: bold;
+    font-family: Georgia, Helvetica, sans-serif;
+    text-shadow: 0  2px 5px darkgreen;
+}
+
+span strong{
+    color: #71c62b;
+    font-size: 20px;
+}
+
+.benefits{
+    color: yellowgreen;
+    text-shadow: none;
+    text-decoration: underline;
+}
+
+form{
+    padding-top: 10px;
+    text-align: center;
+}
+button{
+    background-color: #71c62b;
+    color: white;
+    border: 1px solid grey;
+}
+button:hover{
+    position: relative;
+    background-color: #5ea821;
+    top: 1px;
+    right: 1px;
+}
+.submit{
+    margin: 3px;
+}
+
+
+ul.offers  {
+    font-size: 15px;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.info{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-size: 12px;  
+}
+
+#container{
+    background: url(img/bg-tile.gif) top left repeat;
+    padding: 20px;
+    margin: 10px;
+    color: black;   
+}
+
+#spa{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 580px;
+    height: 400px;
+    box-shadow: 5px 5px 20px;
+}
+
+#spa3{
+    position: relative;   
+    top: 20px;
+    width: 380px;
+    height: 200px;
+    box-shadow: 5px 5px 20px;
+}
+
+.col-service{
+    margin: 40px 0;
+}
+
+#hours{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+input[type="text"]{
+    padding: 5px;
+}
+
+.specials h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.specials h3 em{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-size: 70px
+}
+
+.specials{
+    padding: 0 60px
+}
+
+.newSpecials{
+    font-size: 20px
+}
+
+.fa-bullhorn{
+    color: yellowgreen;
+    font-size: 80px;
+    margin-right: 20px;
+}
+
+.contactForm{
+    margin: 40px auto;
+    border: 1px solid yellowgreen;
+    max-width: 400px
+}
+
+.comment{
+    vertical-align: middle;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input[type="text"]{
+    padding: 3px;
+
+}
+
+ textarea:hover, input:hover{
+    border: 2px solid yellowgreen;
+}
+
+.confidential{
+    color: #333;
+    font-size: 12px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*GRID 3 ROWS*/
+.container-fluid{
+    width: 100%;
+}
+
+section{
+    padding: 50px;       
+}
+
+section h3{
+    text-align: center;   
+}
+
+.grid2{
+    border-left: 5px solid #71c62b; 
+    border-right: 5px solid #71c62b;
+    margin: 0 
+}
+
+.readMore{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-weight: bold
+}
+
+
+/* TABLE */
+h3{
+    margin-bottom: 10px;
+    color: #333
+}
+
+table{
+    margin: 0 auto;
+}
+
+table, td, th {    
+    border: 1px solid yellowgreen;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+/*Social Media Buttons*/
+
+
+/*FOOTER*/
+
+footer{
+    background: url(img/bg-tile-green.gif)top left repeat;
+    width: 100%;
+    margin: 0 auto;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+footer a{
+  color: greenyellow;
+}
+
+footer li a:hover{
+  color: white;
+  background: none;
+}
+
+.footer-bottom{
+  text-align: center;
+  padding: 1em;
+ 
+}
+
+.footer-middle{
+  padding-top: 1em;
+  color: white;
+}
+
+span p{
+    font-size: 13px;
+    color: #333;
+    margin: 0 auto;
+    padding-bottom: 10px
+}
+
+.footer-pad ul li{
+    text-align: center;
+    font-size: 13px;
+}
+
+address{
+    text-align: center;
+    font-size: 15px;
+}
+
+.fa-heart{
+    color: #71c62b;
+}
+.courtesyOf{
+    font-size: 11px;
+}
+
+
+/*MEDIA*/
+
+@media screen and (max-width: 600px) 
+{
+    .logoJq {font-size: 30px; }
+    .h3Services{padding-top: 25px; text-align: center}
+    #spa{height: 300px;}
+}
+
+
+@media screen and (max-width: 414px)
+{
+    .navbar-toggler{display: block; margin: 0 auto;}
+    #spa{height: 200px; float: right}
+} 
+
+@media screen and (max-width: 667px)
+{
+    #spa{}
+}
+
+  
